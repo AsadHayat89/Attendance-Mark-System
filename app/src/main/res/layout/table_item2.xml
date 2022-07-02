@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableRow android:id="@+id/tableRow2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="30dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:background="@drawable/border"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/txttableName2"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="Medium"
+        android:background="@drawable/border"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/txttabledate2"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:paddingLeft="20dp"
+        android:text="Medium"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="10sp" />
+    <TextView
+        android:id="@+id/txttablestatus2"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:paddingLeft="20dp"
+        android:text="Medium"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/btneditadmin"
+        android:layout_width="40dp"
+        android:layout_height="32dp"
+        android:background="@drawable/border"
+        android:paddingLeft="20dp"
+        android:layout_marginLeft="5dp"
+        android:text="E"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="10sp" />
+    <Button
+        android:id="@+id/btndeleteadmin"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:background="@drawable/border"
+        android:paddingLeft="50dp"
+        android:layout_marginLeft="5dp"
+        android:text="D"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="10sp" />
+
+
+
+</TableRow>
+
+
